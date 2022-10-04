@@ -2,8 +2,25 @@ html,
 body {
   padding: 0;
   margin: 0;
+  height: 100%;
+  width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('/fondo.webp');
+}
+
+#__next {
+  height: 100%;
+  width: 100%;
+  padding: 48px 32px;
+  position: relative;
+  overflow: auto;
 }
 
 a {
@@ -18,9 +35,5 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
   }
 }
