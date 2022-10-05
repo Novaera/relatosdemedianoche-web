@@ -12,7 +12,7 @@ body {
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('/fondo.webp');
+  background-image: url('/fondo.jpg');
 }
 
 #__next {
